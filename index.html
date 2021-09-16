@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Net Shopping</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/378bdb9e50.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- top bar -->
+    <section class="topbar_section">
+        <div class="topbar">
+            <!-- left -->
+            <div class="topbar_left">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:contact@example.com">info@netshopping.lk</a>
+                <i class="fab fa-whatsapp"></i> 076 220 41 44
+                <i class="fas fa-phone-alt"></i> 076 752 41 44
+            </div>
+            <!-- right -->
+            <div class="topbar_right">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-skype"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header_first">
+            <div class="header_second">
+                <h1>
+                    <!-- <a href="index.html"> -->
+                    <span> NET SHOPPING</span>
+                    <!-- </a> -->
+                </h1>
+            </div>
+
+            <!-- nav menu -->
+            <div class="header-menu">
+                <ul class="nav_ul">
+                    <li class="nav_li nav_li_active">Home</li>
+                    <li class="nav_li">About Us</li>
+                    <li class="nav_li">Products</li>
+                    <li class="nav_li">Contact Us</li>
+                    <li class="nav_li">Login</li>
+                </ul>
+            </div>
+            <i class="fa fa-close menu-close-btn"></i>
+            <i class="fa fa-bars menu-open-btn"></i>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+
+    <!-- <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+
+            <div class="slide" s1>
+                <img src="https://images.pexels.com/photos/1078058/pexels-photo-1078058.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/3325917/pexels-photo-3325917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/1679319/pexels-photo-1679319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+        </div>
+    </div> -->
+
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        </ol>
+            <div class="caroudel-inner">
+                <div class="carousel-item active">
+                    <h1>dgdha</h1>
+                </div>
+                <div class="carousel-item ">
+                    <h1>dgdha</h1>
+                </div>
+            </div>
+     </div> -->
+
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <div class="carousel-inner" >
+         <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+         </ol>
+          <div class="carousel-item active">
+         <div class="container">
+             <h1>Headlineg</h1>
+             <p>gjkdhdgf gdfhdfgh gsfh fgs dh</p>
+             <a href="#" class="btn btn-lg btn-primary">
+                 Sign up today
+             </a>
+         </div>
+
+          </div>
+          <div class="carousel-item ">
+        <div class="container">
+            <h1>hi</h1>
+            <p>bla bla bla</p>
+            <a href="#" class="btn btn-lg btn-primary">
+                Sign up today
+            </a>
+        </div>
+
+          </div>
+    </div>
+    </div> -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/020-min.png"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/021-min.png"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/022-min.png"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/023-min.png"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- main -->
+    <div class="main">
+        <div class="main_top_one">
+            <div class="main_top">
+                <h2>ආයුබෝවන් !</h2>
+            </div>
+
+            <div class="grid-container">
+                <!-- left -->
+                <div class="grid-container_left">
+                    <div>
+                        <h4>Online net shopping ආයතනයට ඉතා ආදයෙන් පිලිගන්නවා</h4>
+                    </div>
+
+                    <div>
+                        <p>අප Online net shopping ආයතනය කියන්නෙ යම් බාන්ඩ ප්‍රමානයක් ජාලගත අලෙවි ක්‍රම වේදයක් හරහා ඕනෑම
+                            බාන්ඩයක් මිලදී ගන්නා පාරිබෝගිකයින් හට මුදල් ප්‍රතිලාබයක් ගෙන දෙන ව්‍යාපාරයකි. හොදයි මම
+                            දන්නවා මේක අහපු ගමන් ඔයාල හිතනව මේකත් පිරමීඩ ව්‍යාපාරයක් තමයි කියල ,</p>
+                    </div>
+                    <br>
+                    <div>
+                        <h4>හරි අපී බලමු පිරමීඩ ව්‍යාපාරයක් කියන්නෙ මොකද්ද කියල</h4>
+                    </div>
+
+                    <div>
+                        <p>පිරමීඩ ව්‍යාපාරයක් කියන්නෙ පාරිබෝගිකයින් ට <span>අනවශ්‍ය</span> බාන්ඩයක් වෙලද පල මිලට වඩා <span>ඉතා වැඩි මිලකට</span> අලෙවි කොට එයින් ලැබෙන අසීමිත ලාබයෙන් ඉතා සුලු කොටසක් තම ජාලයේ පාරිබෝගිකයින්ට ලබා දී එම ව්‍යාපාරයේ හිමිකරුවන් හා ඉහල සාමාජිකයින් අති විශාල ලාබයක් උපයා ගැනීම හා යම් අවස්තාවක එම ව්‍යාපාරය කඩා වැටුන විට ඉහල සිටින සාමාජිකයින් කිහිප දෙනෙකු පමනක් විශාල ලාබයක් ගෙන පහල සිටින දහස් ගනන් විශාල පිරිසකට අලාබයක් සිදු කරන ව්‍යාපාර පිරමීඩ ව්‍යාපාර ලෙස හැදින්වේ .</p>
+                    </div>
+                    <br>
+
+                    <div>
+                        <img src="https://netshopping.lk/assets/img/Success.png" alt="">
+                    </div>
+
+                </div>
+
+                <!-- right -->
+                <div class="grid-container_right">
+                    <div class="grid-container_right_top">
+                        <h4>හොදයි එහෙමනන් අපි බලමු මේ Online net shopping ආයතනය පිරමීඩ ව්‍යාපාරයක් නොවන්නෙ කුමක් නිසාද
+                            ....</h4>
+                    </div>
+                    <p>1. Online net shopping ආයතනය ඔබට අලෙවි කරන්නේ ඔබේ ජීවිතයට අත්‍යවශ්‍ය එදිනෙදා ජීවිතයේ පරි බෝජනය
+                        කරනු ලබන බාන්ඩ වීම නිසා .</p>
+                    <br>
+                    <p>2. ඔබට අලෙවි කරන සියලු බාන්ඩ වෙලද පල මිලටත් අඩුවෙන් අලෙවි කිරීම .</p>
+                    <br>
+                    <p>3. මෙම ව්‍යාපාරයේ සියලුම බාන්ඩ ජාලගත අලෙවියට හෝ නැතිනම් ඔබගේ අවශ්‍යතාවය පරිදි මිලදී ගැනීමට හැකි
+                        වීම .</p>
+                    <br>
+                    <p>4. ඉතාම වැදගත් කරුන වන්නෙ අප ආයතනය තමන් සතු ලාබයෙන් 95% ක් පාරිබෝගිකයින් හට බෙදා දී 5% ක ලාබයක්
+                        අප ආයතනයේ සේවාවන් ලෙස ලබා ගැනීමයි</p>
+                    <br>
+                    <p>5. ඕනෑම මොහොතක මෙම ජාලයේ පාරිබෝගිකයින් දහස් ගනන් සිටියත් ඔවුන්ගෙන් යම් පිරිසකට කිසිදු
+                        ප්‍රතිලාබයක් නොලැබුනත් කිසිදු පාරිබෝගිකයකු හට අලාබයක් සිදු නොවීමයි මන්ද ඔවුන් සියලු බාන්ඩ වෙලද
+                        පල මිලටත් අඩුවෙන් ලබාදී පාරිබෝගිකයින් හට සේවාවක් ලබාදෙන නිසාවෙනි .</p>
+                    <br>
+                    <p>6. අවම වශයෙන් මෙම ව්‍යාපාරය තුල කිසිදු පිරමීඩහැඩයක් වත් නොමැති වීමයි .මන්ද එක් පාරිබෝගිකයකු හට
+                        ඕනෑම තරම් බාන්ඩ අලෙවි කොට තමන්ගේ කැපවීම මත මුදල් උපයා ගැනීමේ ක්‍රමවේදයක් පැවතීමයි.</p>
+                    <br>
+                    <p>7. අවසන් වැදගත්ම කාරනාව අප ඔන්ලයින් නෙට් ශොපින් ආයතනය තමන්ගේ ව්‍යාපාර සැලසුම කිසිදු රහසක් නොමැතිව
+                        ලෝකවාසී සියලුම පාරිබෝගිකයින් හට බලා අවබෝද කර ගැනීමට හැකි අයුරින් ඔන්ලයින් නෙට් ශොපින් ආයතනයේ
+                        වෙබ් අඩවිය තුල හා FB , YOUTUBE යන සියලු මාද්‍ය තුලින් පෙන්වා තිබීමයි .</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="main2">
+
+            <h4>අප ඔබට කියා සිටියා රුපියලක් වත් පාඩු නොලබා ලක්ශ ගනනින් මුදල් උපයන්න පුලුවන් කියලා .</h4>
+
+
+            <p>අපි බලමු චූටි උදාහරනයක් අප Online net shopping ආයතනය කොහොමද ඒක කරන්නෙ කියල .අප ආයතනයේ තිබෙනව තේකුඩු
+                පැකේජයක් 5KG ක ඔබ මුලින්ම රු4500 කට එම පැකේජය මිලදී ගත යුතුයි , ඉන් පසු ඔබ විසින් ඔබගේ යහලුවන්
+                ,අසල්වැසියන් ,පවුලේ සාමාජිකයන් හට එහි ගුනාත්මක බාවය සම්බන්දව තහවුරු කර 250 g හෝ 500g බැගින් රුපියල් 250
+                හා 500 ලෙස 4.5KG අලෙවි කොට ඔබ අප ආයතනයට ගෙවූ රු4500 ක මුදල ලබාගන්න .</p>
+            <br>
+            <p>දැන් ඔබට වැටහෙනවා ඇති ඔබ වැය කල සියලු මුදල් ඔබට ලැබී අවසන් දැන් ඔබගේ අලාබය 0 යි . නමුත් ඔබ ලග තේ කුඩු
+                500g ඉතුරු වී ඇත එසේනම් ඔබ ඔබගේ ව්‍යාපාරය ආරම්බයේදීම රුපියල් 500 ක ලාබයක් උපයා ඇත .</p>
+            <br>
+            <p>එසේනම් වැදගත්ම කාරනාව ඔබ ආරම්බ කල ව්‍යාපාරය ඔබ මහන්සි වී කැප කිරීමෙන් දියුනු කිරීමයි ඔබ ඒ සදහා කල යුත්තේ
+                ඔබ අර තේ කුඩු අලෙවි කල ඔබගේ හිතවතුන් හා යහලුවන් හට අපගේ ව්‍යාපාරය සම්බන්දව පැහැදිලිව දැනුවත් කොට මෙම
+                වීඩියෝ පට පෙන්වා අවම වශයෙන් ඔබගේ යහලුවන් හො හිතවතුන්ගෙන් දෙදෙනෙකු අප ව්‍යාපාරය හා සම්බන්ද කිරීමයි ඉන්
+                පසු ඔවුන් දෙදෙනාත් සමග එකතු වී ඔවුන්ටද නව සාමාජිකයින් සිව් දෙනෙකු වත් සම්බන්ද කර ගැනීමට උදව් කර පහල
+                වගුවේ සටහන් වන ආකාරයට සති 14ක් වැනි කෙටි කාලයක් තුල ඔබගේ කන්ඩායම හා එක්වී කැපවී වැඩ කිරීමෙන් අප ඔබට
+                පෙන්වා දෙන රුපියල් ලක්ෂ 57 කට වැඩි මුදලක් උපයා ගත හැකි බව අප නුබට සහතික වෙමු.</p>
+            <br>
+            <p>පහත වගුවේ සටහන් පරිදි පියවර තුනකදී මුදල් ලැබෙන ආකාරය දෙස හොදින් බලන්න පලමු පියවරේදී පලමු අදියරේ සිට අටවන
+                අදියර දක්වා ඔබගේ කන්ඩායම අලෙවි කරන සෑම තේකුඩු පැකේජයකින්ම රු50 බැගින් රු 25,500ක් ද දෙවන පියවරේදි අදියර
+                4කදී රු 100 බැගින් රු 7,680,00ක්ද</p>
+            <br>
+
+            <h4>ඔබේ ජීවිතය වෙනස් කරන තුන්වන පියවර</h4>
+
+            <p>තුන් වන පියවරේදී අවසන් අදියර දෙකේදී එක් පැකේජයක් සදහා රු200 බැගින් රු 4,915,200 ක්ද වශයෙන් එකතුව රු
+                5,726,700 ක මුදලක් ඔබට ලබා ගත හැක .</p>
+            <br>
+
+            <div>
+                <img class="middle-img" src="https://netshopping.lk/assets/img/increace.jpg" alt="">
+            </div>
+
+            <p>නෙට් ශොපින් ඔන්ලයින් ආයතනය සමග සම්බන්ද වන ඔබව සති 14 ක් වැනි ඉතා සුලු කාලයකදී කිසිදු මුදලක් වැය නොකර ඔබ
+                කැප කරණ කාලයෙන් පමනක් රුපියල් ලක්ෂ 57 කට වැඩි මුද්දලක් ඔබට ලබාදෙන බවට අප ඔබට සහතික වෙමු </p>
+            <br>
+            <p>ඔන්ලයින් නෙට් ශොපින් අප ආයතනයේ අරමුන ලාබයම නොව හුදෙක් ඔබගේ ජයග්‍රහනයම පමනි මන්ද අප සමාගමේ සියලුම බාන්ඩ
+                පාරිබෝගික ඔබ විසින්ම අලෙවි කරන නිසාවෙන් අප සමාගමේ ශුද්ද ලාබයෙන් 95% ක් නැවත පාරිබෝගික ඔබ වෙත ජාලගත
+                ක්‍රමවේදයක් හරහා බෙදා දීමයි .</p>
+            <br>
+        </div>
+
+        <div class="main2">
+            <h4>අතරමැදියන් රහිත ව්‍යාපාර</h4>
+
+            <p>වර්තමානයේ තමන්ගේම ලාබය පමනක් උදෙසා ව්‍යාපාර පවත්වාගෙන යන ලෝකයක ඔබ නොදත් නමුදු ඔබගේම ව්‍යාපාරයක් අප
+                ඔන්ලයින් නෙට් ශොපින් ආයතනය මගින් පවත්වාගෙන යනු ලබන අතර එම ව්‍යාපාරය කලමනා කරන කාර්‍ය සිදු කර එයට සරිලන
+                ලාබයක්ම පමනක් උපයා ගැනීම අපගේ අරමුනයි එනිසා සියලු පාරිබෝගිකයින් හට වෙලද පොල මිලටත් අඩුවෙන් ඕනෑම බාන්ඩයක්
+                ලබා දීමේ හැකියාව ඔබගේ ව්‍යාපාරය සතු වේ.</p>
+            <br>
+            <p>මන්ද යම් බාන්ඩයක් පාරිබෝගිකයා හට ලබාදීමේදී අතර මැදියන් හා අලවි ප්‍රචාරකයන් විසින් අදික ලාබයක් ලබා ගැනීම
+                සාමාන්‍ය ව්‍යාපාරයේ ක්‍රමවේදයයි.එම නිසා බාන්ඩයක් නිෂ්පාදන වියදමට වඩා දෙගුනයකින් පමන වැඩි මිලකට
+                පාරිබෝගිකයන්ට මිලදී ගැනීමට සිදු විය . නමුත් අප online net shopping ආයතනයේ සියලුම බාන්ඩ අලවිය හා ප්‍රචාරය
+                කිසිදු අතර මැදියෙක් නොමැතිව ව්‍යාපාරයේ හිමිකරුවන් වන ඔබ විසින්ම සිදු කරන නිසාත් අප online net shopping
+                ආයතනය ඔබගේ ව්‍යාපාරයේ සේවාදායකයා පමනක් නිසාත් ඉතා අඩු මිලට පාරිබෝගිකයා හට බාන්ඩ ලබා දීමේ හැකියාව උදා වේ.
+            </p>
+            <br>
+            <p>එසේ අනාගතයේදී ඔබට අවැසි ඕනෑම බාන්ඩයක් වෙලද පල මිලටත් අඩුවෙන් ලබාගැනීමට හා බාන්ඩ ලබා ගන්නා සියලුම
+                පාරිබෝගිකයින් ව්‍යාපාරිකයින් ලෙස අප හා සම්බන්ද වී ආදායමක්ද හිමිකර ගත හැකි බැවින් හෙට දවසේදී දහස් ගනන්
+                පාරිබෝගිකයින් අප හා සම්බන්ද විම ඉතා පැහැදිලි කරුනකි</p>
+            <br>
+            <p>එසේනම් කිසිදු මුදලක් වැය නොකර අදම ඔබ ඔබේ ව්‍යාපාරය අප net shopping ආයතනය සමග සම්බන්ද වී ආරම්බ කරන්නැයි අප
+                නුබට ආරාදනා කරන්නෙමු !</p>
+            <br>
+        </div>
+
+        <div class="main2">
+            <h4>Online net shopping අප ආයතනයේ අරමුන ලාබය නොව හුදෙක් ඔබගේ ජයග්‍රහනයම පමනි . මන්ද අප සමාගමේ බාන්ඩ අලෙවි
+                කිරීම හුදෙක් පාරිබෝගික ඔබ විසින් කරන නිසාත් අප සමාගමෙ ශුද්ද ලාබයෙන් 95% ක් පාරිබෝගික ඔබ වෙත ලබා දීමයි !
+            </h4>
+        </div>
+
+        <!-- Product Section -->
+        <!-- <div class="products mb-5 mt-5"> -->
+            
+
+                
+
+        <div class="duct">
+                <div class="gg">
+                    <h1>Our Products</h1>
+
+                </div>
+                
+            <div class="products">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/025.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">TRUE TURMERIC</h5>
+                    <p class="card-text">A fast-absorbent blend of Ayurveda WonderHerbs infused with cal...</p>
+                    <a href="#" class="btn btn-primary">Rs. 200.00</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/026.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Mineral Face Supplement </h5>
+                    <p class="card-text">Fresh and white Beauty whitening Cream with Face wash.</p>
+                    <a href="#" class="btn btn-primary">Rs. 400.00</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/027.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Avocado Cream</h5>
+                    <p class="card-text">Anish Avocado Revitalising Night Cream</p>
+                    <a href="#" class="btn btn-primary">Rs. 365.00</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/028.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">
+                        Koththamalli (Coriander Tea) </h5>
+                    <p class="card-text">Medicinal plants that boost the immune system.</p>
+                    <a href="#" class="btn btn-primary ">Rs. 700.00</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            
+        <!-- </div> -->
+
+        <!-- <section class="section"> -->
+            <div class="section_container">
+                <div class="section_title">
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="section_me">
+
+                    <div class="section_row ">
+                        <div class="info-box_me">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h3>Our Address</h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="info-box ">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h3>Email Us</h3>
+                            <p>info@netshopping.lk</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="info-box ">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h3>Call Us</h3>
+                            <p>+94 76 22 04 144</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <form action="" class="email-form">
+                        <div class="form-row">
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" />
+                            </div>
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group_me">
+                                <input type="text" class="form-control" placeholder="Subject" />
+                            </div>
+                            <div class="form-group_me">
+                                <textarea class="form-control" rows="4" cols="50" name="comment"
+                                    form="usrform">Message</textarea>
+                            </div>
+                            <div class="text-center">
+                                <button>Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <!-- </section> -->
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="col-lg-3 footer-info">
+                        <h3>Net Shopping</h3>
+                        <p>
+                            <br>
+                            <br>
+                            <strong>Phone:</strong>
+                            +94 76 22 04 144
+                            <br>
+                            <strong>Email</strong>
+                            info@netshopping.lk
+                            <br>
+                        </p>
+                        <br>
+                        <div class="social-links">
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-skype"></i></a>
+                            <a href=""> <i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links col-lg-2">
+                        <h4>Usefull Link</h4>
+                        <ul>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                    About us</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                    Services</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                    Terms of service</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                    Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links col-lg-2">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#"></a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                <a href="#">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+
+                        <form class="example" action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hello">
+            <p>© Copyright Net Shopping. All Rights Reserved</p>
+            <a href="#" class="back-to-top">
+                <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    <script src="./javascript/jquery-3.5.1.min.js"></script>
+    <script src="./javascript/index.js"></script>
+
+</body>
+
+</html>
